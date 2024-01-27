@@ -3,7 +3,8 @@ const express = require("express");
 
 const app = express();
 
-image_url = "https://azghbab1y7pehv9r.public.blob.vercel-storage.com/image-DobK3B7UoQ9XpTOS4TNy8oDwFxAVH6.jpeg"
+image_url =
+  "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
 
 // Define the route to generate and serve the poll metadata
 app.get("/api/poll-metadata", (req, res) => {
