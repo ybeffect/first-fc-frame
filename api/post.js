@@ -4,7 +4,7 @@ const app = express();
 const image_url =
   "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/rickroll.jpg";
 
-app.post("/post", (req, res) => {
+app.post("/api/post", (req, res) => {
   const body = `
   <!DOCTYPE html>
   <html>

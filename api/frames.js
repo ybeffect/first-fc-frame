@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 image_url =
-  "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
+  "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/output.jpeg";
 
 app.get("/api/frames", (req, res) => {
   const body = `
