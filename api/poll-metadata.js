@@ -3,7 +3,8 @@ const express = require("express");
 
 const app = express();
 
-image_url = "https://ff.gregskril.com/question.jpg";
+image_url =
+  "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
 // "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
 
 // Define the route to generate and serve the poll metadata
