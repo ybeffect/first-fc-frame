@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 
 const image_url =
-  "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
+  "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/rickroll.jpg";
 
 app.post("/", (req, res) => {
   const body = `
