@@ -25,7 +25,7 @@ app.get("/api/poll-metadata", (req, res) => {
 
   // Send the metadata as a response
   res.setHeader("Content-Type", "text/html");
-  res.send(metadata);
+  res.send(body);
 });
 
 // Export the express app for Vercel
