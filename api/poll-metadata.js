@@ -3,6 +3,8 @@ const express = require("express");
 
 const app = express();
 
+image_url = "https://azghbab1y7pehv9r.public.blob.vercel-storage.com/image-DobK3B7UoQ9XpTOS4TNy8oDwFxAVH6.jpeg"
+
 // Define the route to generate and serve the poll metadata
 app.get("/api/poll-metadata", (req, res) => {
   // Generate the metadata
@@ -11,14 +13,14 @@ app.get("/api/poll-metadata", (req, res) => {
   <html>
     <head>
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="http://...image-result.png" />
+        <meta property="fc:frame:image" content="${image_url}" />
         <meta property="fc:frame" content="vNext" />
-        <meta property="fc:frame:image" content="https://i.imgur.com/2T5DaQT.jpg" />
+        <meta property="fc:frame:image" content="${image_url}" />
         <meta property="fc:frame:button:1" content="Green" />
         <meta property="fc:frame:button:2" content="Purple" />
         <meta property="fc:frame:button:3" content="Red" />
         <meta property="fc:frame:button:4" content="Blue" />
-        <meta property='og:image' content="https://i.imgur.com/2T5DaQT.jpg" />
+        <meta property='og:image' content="${image_url}" />
     </head>
     </html>
     `;
