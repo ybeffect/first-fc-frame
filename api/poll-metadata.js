@@ -7,7 +7,7 @@ image_url =
   "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
 
 // Define the route to generate and serve the poll metadata
-app.get("/api/poll-metadata", (req, res) => {
+app.post("/api/poll-metadata", (req, res) => {
   // Generate the metadata
   const body = `
   <!DOCTYPE html>
