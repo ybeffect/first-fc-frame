@@ -4,7 +4,7 @@ const app = express();
 image_url =
   "https://raw.githubusercontent.com/mbiss10/first-fc-frame/main/assets/image.jpeg";
 
-app.get("/api/poll-metadata", (req, res) => {
+app.get("/api/frames", (req, res) => {
   const body = `
   <!DOCTYPE html>
   <html>
