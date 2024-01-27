@@ -27,6 +27,7 @@ app.get("/api/poll-metadata", (req, res) => {
 
   // Send the metadata as a response
   res.setHeader("Content-Type", "text/html");
+  res.status(200);
   res.send(body);
 });
 
