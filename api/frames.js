@@ -16,7 +16,7 @@ app.get("/api/frames", (req, res) => {
         <meta property="fc:frame" content="vNext" />
         <meta property="fc:frame:image" content="${image_url}" />
         <meta property="fc:frame:button:1" content="Play!" />
-        <meta property="fc:frame:post_url" content="https://first-fc-frame.vercel.app/api/post"} />
+        <meta property="fc:frame:post_url" content="https://first-fc-frame-five.vercel.app/api/post"} />
     </head>
     </html>
     `;
